@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+.bck-cream {
+    background-color: hsl(39, 100%, 71%);
+}
+
+.cream-text {
+    color: hsl(39, 100%, 71%);
+}
+
+
+
+.bck-purple {
+    background-color: hsl(256, 67%, 59%);
+}
+
+.purple-text {
+    color: hsl(256, 67%, 59%);
+}
+
+.bck-light-purple {
+    background-color: hsl(254, 88%, 90%);
+}
+
+.bck-light-cream {
+    background-color: hsl(31, 66%, 93%);
+}
+
+.bck-white {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.white-text {
+    color: white;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.medium-text {
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    letter-spacing: -1px;
+    font-size: 24px;
+    line-height: 90%;
+}
+
+.large-text {
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    letter-spacing: -2px;
+    font-size: 34px;
+    line-height: 90%;
+}
+
+
+.extra-large-text {
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    letter-spacing: -1px;
+    font-size: 50px;
+    line-height: 90%;
+}
+
+.small-text {
+    font-family: "DM Sans", serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+p {
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+
+
+main {
+    align-items: stretch;
+    justify-items: stretch;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px 20px;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: 250px 80px 100px 170px;
+    background-color: #F5F5F5;
+    margin: auto;
+    grid-gap: 25px;
+    grid-template-areas:
+        "a b b c"
+        "a d h c"
+        "e d h c"
+        "e f g g";
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.sec7 {
+    /*Create and schedule content quicker.*/
+    grid-area: a;
+    padding: 60px 20px;
+
+    img {
+        margin-top: 20px;
+    }
+}
+
+.sec1 {
+    /*Social Media 10x Faster with AI*/
+    align-content: center;
+    justify-content: center;
+    grid-area: b;
+    text-align: center;
+
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        margin-top: 20px;
+    }
+}
+
+.sec4 {
+    /*Schedule to social media.*/
+    grid-area: c;
+    text-align: start;
+    padding: 30px 0;
+    box-sizing: content-box;
+    padding-left: 20px;
+
+    img {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        height: 100%;
+        position: relative;
+        object-fit: cover;
+        object-position: 0 0;
+    }
+}
+
+.sec2 {
+    /*Manage multiple accounts and platforms.*/
+    grid-area: d;
+}
+
+.sec3 {
+    /*Maintain a consistent posting schedule.*/
+    grid-area: h;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+
+    img {
+        margin-top: 10px;
+        object-fit: cover;
+        height: 100%;
+        object-position: 0 0;
+    }
+}
+
+.sec8 {
+    /*Write your content using AI.*/
+    grid-area: e;
+}
+
+.sec6 {
+    /*faster audience growth*/
+    grid-area: f;
+}
+
+.sec5 {
+    /*Grow followers with non-stop content.*/
+    grid-area: g;
+}
