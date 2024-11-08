@@ -24,8 +24,8 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/asymtut/bento-grid)
+- Live Site URL: [Netlify](https://asymtut-bento-grid.netlify.app/)
 
 ## My process
 
