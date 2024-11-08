@@ -237,5 +237,103 @@ main {
     main {
         display: flex;
         flex-direction: column;
+        height: fit-content;
+        width: 350px;
+        padding: 20px;
     }
+
+    p {
+        font-size: 16px;
+    }
+
+
+    .sec1 {
+        /*Social Media 10x Faster with AI*/
+        order: 1;
+        padding: 30px;
+
+        img {
+            width: 60%;
+        }
+    }
+
+    .sec2 {
+        /*Manage multiple accounts and platforms.*/
+        order: 2;
+        height: 120px;
+        padding: 20px;
+
+        img {
+            height: 60px;
+        }
+    }
+
+    .sec3 {
+        /*Maintain a consistent posting schedule.*/
+        order: 3;
+        height: 190px;
+
+        img {
+            width: 210px;
+        }
+    }
+
+    .sec4 {
+        /*Schedule to social media.*/
+        order: 4;
+        text-align: center;
+        padding: 20px;
+
+        img {
+            margin-top: 20px;
+            width: 280px;
+            height: auto;
+        }
+    }
+
+
+    .sec5 {
+        /*Grow followers with non-stop content.*/
+        order: 5;
+        flex-direction: column;
+        padding: 25px 50px;
+        text-align: center;
+
+        img {
+            width: 200px;
+            margin-bottom: 25px;
+        }
+    }
+
+    .sec6 {
+        /*faster audience growth*/
+        order: 6;
+
+        img {
+            width: 170px;
+        }
+    }
+
+    .sec7 {
+        /*Create and schedule content quicker.*/
+        padding: 20px;
+        order: 7;
+
+        img {
+            width: 150px;
+        }
+    }
+
+
+    .sec8 {
+        /*Write your content using AI.*/
+        order: 8;
+        padding-right: 30px;
+
+        img {
+            width: 200px;
+            display: block;
+        }
+    }
+
 }
